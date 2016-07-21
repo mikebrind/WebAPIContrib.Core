@@ -14,7 +14,7 @@ namespace WebApiContrib.Core.WebPages.Samples
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddWebPages(new WebPagesOptions { RootViewName = "RazorSample" });
+            services.AddWebPages(new WebPagesOptions { RootViewName = "Index" });
         }
 
         public void Configure(IApplicationBuilder app)

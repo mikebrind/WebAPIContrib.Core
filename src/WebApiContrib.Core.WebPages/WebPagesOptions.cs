@@ -5,6 +5,6 @@
     {
         public string RootViewName { get; set; } = null;
 
-        public string ViewsFolderName { get; set; } = "Views";
+        public string ViewsFolderName { get; set; } = null;
     }
 }
