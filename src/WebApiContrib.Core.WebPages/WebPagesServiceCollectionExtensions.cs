@@ -29,6 +29,7 @@ namespace WebApiContrib.Core.WebPages
             services.AddMvcCore().AddRazorViewEngine(o =>
             {
                 o.ViewLocationFormats.Clear();
+                o.ViewLocationFormats.Add("/{0}" + RazorViewEngine.ViewExtension);
                 o.ViewLocationFormats.Add("/" + webPagesOptions.ViewsFolderName + "/{0}" + RazorViewEngine.ViewExtension);
             });
 
